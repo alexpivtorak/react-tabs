@@ -1,0 +1,34 @@
+.mod__tabs {
+  width: 300px;
+}
+
+.mod__tabs .tabs__switches {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mod__tabs .tabs__switches>.tabs__switch {
+  min-height: 100px;
+  cursor: pointer;
+  width: 33.3333%;
+}
+
+.mod__tabs .tabs__switches>.tabs__switch>div {
+  height: 100%;
+}
+
+.mod__tabs .tabs__content,.mod__tabs .tabs__content>div {
+  min-height: 300px;
+}
+
+.mod__tabs .tabs__content:not(.is-active) {
+  display: none;
+}
+
+.mod__tabs .tabs__content.is-active {
+  display: block;
+}
+/*# sourceMappingURL=app.6feaf9f251c451c8fe4f.css.map*/
