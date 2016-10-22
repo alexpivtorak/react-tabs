@@ -1,0 +1,31 @@
+.mod__tabs {
+    width: 300px;
+
+    .tabs__switches {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0; margin: 0;
+        > .tabs__switch {
+            min-height: 100px;
+            cursor: pointer;
+            width: 33.3333%;
+            > div {
+                height: 100%;
+            }
+        }
+    }
+
+    .tabs__content {
+        &, & > div {
+            min-height: 300px;
+        }
+        &:not(.is-active) {
+            display: none;
+        }
+        &.is-active {
+            display: block;
+        }
+    }
+
+}
