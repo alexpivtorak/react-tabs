@@ -1,7 +1,7 @@
 {
-  "name": "Avatars",
+  "name": "React Tabs",
   "version": "1.0.0",
-  "description": "Avatar Picker",
+  "description": "React Tabs component",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server  --progress",
@@ -10,7 +10,7 @@
     "test:styles": "./node_modules/.bin/stylelint ./app/sass/**/*.scss"
   },
   "author": "Alex Pivtorak",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
